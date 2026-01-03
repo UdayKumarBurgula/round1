@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en">    
+<head>        
+    <meta charset="UTF-8">        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <title>Sample Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>    
+<body>      
+    <header>            
+        <h1>Welcome to the Sample Page</h1>        
+    </header>        
+    <main>
+        <section>                
+            <h2>
+                Debouncing
+               <a href="https://www.youtube.com/watch?v=Zo-6_qx8uxg">link</a>
+            </h2>                
+            <p>
+                <input type="text" id="userInput" placeholder="Type something..."
+                onchange="debouncedGetData()" />
+                <button id="alertButton">Show Alert</button>
+            </p>
+        </section>
+        <section>                
+            <h2>
+                Throttling
+                <a href="https://www.youtube.com/watch?v=81NGEXAaa3Y">link</a>
+            </h2>                
+            <p>
+                Resize the window to see throttled resize event in action.
+            </p>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>        
+    <footer>            
+        <p>&copy; 2026 Sample Page. All rights reserved.</p>        
+    </footer>
+</html>
